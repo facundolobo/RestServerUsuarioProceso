@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="11.80" multi-file="no" uid="simpbf8e0ce353794d209319268f5d5fd3e2">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>2</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>41</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="UmlAssociation" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlObjectDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>13</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-604afb22355c43db948baa444c3fd397" name="" task-id-sequence="0">
+    <persons>
+      <person id="P70703192098044649174b1f748ae4a4c">
+        <first-name />
+        <last-name>ARMITA</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-3358c71513304f65ae0ffa6e143a9523" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <items />
+  <models>
+    <model id="p1830f70b19af421fac13e0055b1e6521_632342539" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>09/18/2021 08:20:53</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-object" id="pda19a05975ea4a3cad85b9b637110d47_438429582" name="ObjectDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>09/18/2021 08:20:53</creation-date>
+          <change-date>09/18/2021 08:22:39</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="d6434a74ed2641b0ad5edbb9d6effc9c" cid="C001" type="class" name="Usuario" style-class="" visibility="package" change-tracking-state="added" creator="P70703192098044649174b1f748ae4a4c" creation-date="09/18/2021 08:20:56">
+            <style class="default" />
+            <attributes>
+              <attribute id="a8a771314a6c84afcb99c98b7fe037888678" cid="ELEM001" name="nombre" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-653ac8e0-487a-44f8-af8c-ef436df9ed51" />
+                </source-codes>
+              </attribute>
+              <attribute id="a71e53902dfc443208090ad32793eaf73644" cid="ELEM002" name="correo" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-e1f63864-17a0-4772-8ff9-c79991ff7113" />
+                </source-codes>
+              </attribute>
+              <attribute id="a8d509c9501bc45a49bfab600883001aa459" cid="ELEM003" name="password" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-b13590fc-3ca2-4dc2-83bc-244cd0133287" />
+                </source-codes>
+              </attribute>
+              <attribute id="abce23d063b1d4432aea7f7c681c3a948706" cid="ELEM004" name="img" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-d290bad1-fb31-441b-914b-ad50b014d71e" />
+                </source-codes>
+              </attribute>
+              <attribute id="a2af8fea476064e54beb8748b2ced6e3c75" cid="ELEM005" name="rol" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-cc3d6792-4445-48b3-9e9d-59d742ccb1ab" />
+                </source-codes>
+              </attribute>
+              <attribute id="a56b09e4fd1b24489a8bd420c7db531f9186" cid="ELEM006" name="estado" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-c6a344cd-6371-4450-b4e1-673a2eda37c2" />
+                </source-codes>
+              </attribute>
+              <attribute id="a9038571dc7fd4e5f839c2cb5ae44329c130" cid="ELEM007" name="google" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-6012dc44-1894-4add-8b90-ecf3be482c63" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="9d1197fe27014de9b4145e96414204dd" cid="C002" type="class" name="Proceso" style-class="" visibility="package" change-tracking-state="added" creator="P70703192098044649174b1f748ae4a4c" creation-date="09/18/2021 08:20:59">
+            <style class="default" />
+            <attributes>
+              <attribute id="afa24d3a56d2b4f4395743d0ce806ff0f836" cid="ELEM008" name="usuario" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-db2f44c5-ac08-4865-bccc-7ad6a1952abf" />
+                </source-codes>
+              </attribute>
+              <attribute id="a527ab8661ab2435db52c2e245db3ba6b170" cid="ELEM009" name="nombre" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-17b31e97-d36a-48e3-a135-c8edffc1b6f1" />
+                </source-codes>
+              </attribute>
+              <attribute id="a2cb45a1379664f7b88e941b1454c19ea394" cid="ELEM010" name="duracion" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-7916d5b4-6b80-4ad6-ac1b-a17c0d35070f" />
+                </source-codes>
+              </attribute>
+              <attribute id="abb2264e0f48c44b98adaf532fd6d8b5b27" cid="ELEM011" name="llegada" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-9ec23b7a-8258-49a7-b300-11ec97181707" />
+                </source-codes>
+              </attribute>
+              <attribute id="a25803881332e41c080dc83073a8bda4c346" cid="ELEM012" name="prioridad" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-086d6f8c-6dd2-45fe-84a5-ec702ec0bc99" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="bcf5874df1624a95acffa2df94fcf5ef" cid="REL001" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P70703192098044649174b1f748ae4a4c" creation-date="09/18/2021 08:22:39" from="d6434a74ed2641b0ad5edbb9d6effc9c" to="9d1197fe27014de9b4145e96414204dd">
+            <style class="default" />
+            <relation from="d6434a74ed2641b0ad5edbb9d6effc9c" to="9d1197fe27014de9b4145e96414204dd">
+              <start-role id="umlar-ee931235-e618-40ee-9e97-c76298c71b04" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-a05a3db5-d2ba-49d0-a1d4-bcc3b3f88a10" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer id="7bd989e77c8145cca8d4dae64af5c016" name="Default" visible="true" enabled="true" locked="false">
+          <item id="d6434a74ed2641b0ad5edbb9d6effc9c" iid="1b0dca801a0b4cd1ad6f49c206de0748" creation-date="09/18/2021 08:20:56" order-index="0" type="entity">
+            <layout ax="497" ay="157" awidth="140" aheight="168" x="497" y="157" width="140" height="168" />
+            <class />
+          </item>
+          <item id="9d1197fe27014de9b4145e96414204dd" iid="5115966dfc7e41d39b0fdc37fef4fd49" creation-date="09/18/2021 08:20:59" order-index="1" type="entity">
+            <layout ax="816" ay="310" awidth="140" aheight="160" x="816" y="310" width="140" height="160" />
+            <class />
+          </item>
+          <item id="bcf5874df1624a95acffa2df94fcf5ef" iid="3ff89e3b300743578b737c1e5976e850" creation-date="09/18/2021 08:22:39" order-index="2" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="637" y1="274" x2="816" y2="357" start-border-pos="0.423654647100539" end-border-pos="0.926087379455566" name-position="0,0">
+              <points>
+                <point x="637" y="274" />
+                <point x="816" y="357" />
+              </points>
+            </layout>
+            <relation from="d6434a74ed2641b0ad5edbb9d6effc9c" from-iid="1b0dca801a0b4cd1ad6f49c206de0748" to="9d1197fe27014de9b4145e96414204dd" to-iid="5115966dfc7e41d39b0fdc37fef4fd49" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
