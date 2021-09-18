@@ -10,17 +10,19 @@ Recuerden que deben de ejecutar ```npm install´´´ para reconstruir los módul
 ## Package de Nodejs utilizados
 
 ```javascript
-npm express
+npm i express
 
-npm dotenv
+npm i dotenv
 
-npm cors
+npm i cors
 
-npm bcryptjs
+npm i bcryptjs
 
-npm mongoose
+npm i mongoose
 
-npm express-validator
+npm i express-validator
+
+npm i jsonwebtoken
 
 ```
 
@@ -29,7 +31,7 @@ npm express-validator
 Servicio Rest de autentificacion de usuario y creacion de procesos (tareas de cada usuario).
 Solo cuenta con:
 
-get, post, put, delete para usuarios y procesos.
+get, post, put, delete para usuarios(con token) y procesos.
 
 ## Postman
 
